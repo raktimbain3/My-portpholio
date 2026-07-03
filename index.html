@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>
+
+ <div id="heading">   <!--Heading tag-->
+    <h1>Hello and Welcome to my portpholio</h1>
+    <hr>
+ </div>
+ <div>
+    <!--Paragraph tag-->
+    <p id="parah">I am Raktim Bain Setu. I am a Student. My university is Daffodil Internatoonal Usiversity.</p>
+    <hr>
+ </div>
+ <div>
+    <!--Anchor Tag-->
+    <a href="https://www.google.com/">Google</a> <br>
+    <a href="/html/fst.html">Go to FST</a> <br>
+
+    <h4>Here is my qualifications</h4>
+
+    <!-- anchor tag with target(it helps opening a new tab)-->
+    <a id="education" class="btn" href="education.html" target="_blank">My education details</a>
+    <a class="btn" href="mailto:raktimbain3@gmail.com">My Mail</a>
+    <br>
+    <h4>Here is my facebook profile link<br> Just click on Facebook</h4>
+    <br>
+
+    <!--Anhor tag with image(by clicking the image, we can open the link)-->
+    <a  href="https://www.facebook.com/share/1AQpY3izQf/" target="_main"> <img src="facebook.png" height="100"></a>  
+    <hr>
+ </div>
+ <div>
+    <!--Image tag-->
+    <p> <b><i>My Picture</i></b> </p>
+    <img src="image.jpeg" alt="My picture"height="500">  <!--alt means alternetive tag. If progeam fails to show picture then it will show 'My picture' writing-->
+ </div>
+    <!--Br tag-->
+    <br>
+    <hr>
+ <div>
+    <!--Bold, Italic, Underline tag-->
+    <b>BOLD</b><br>
+    <i>Italic</i><br>
+    <u>Underline</u><br>
+    <hr>
+ </div>
+ <div>
+    <!--Big  and Small tag-->
+    <big>This tag shows big size texts</big><br>
+    <small>This tag shows small sized texts</small><br>
+ <div>
+    <!--Hr tag,, displlay a horizontal rular-->
+    <hr>
+    <p>H<sub>2</sub>SO<sub>4</sub><br>
+    A<sup>2</sup>+B<sup>2</sup></p>
+    <hr>
+ </div>  
+    <!--pre tag- dont ignore next line and space from progrann==mmars text-->
+    <pre>
+        This       is         a 
+            sample      of
+        pre       tag
+    </pre>
+
+    <!--List tag is used for listing data-->
+    <h2>List</h2>
+    <big>Unodered list</big>
+    <!--unordered list shows data with bulet point-->
+    <ul>
+        <li>Apple</li>
+        <ul>
+            <li> color: red</li>
+            <li> season: winters</li>
+        </ul>
+        <li>Mango</li>
+        <ul>
+            <li>color: yellow</li>
+            <li>season: summers</li>
+        </ul>
+    </ul>
+    <big>Odered list</big>
+    <!--ordered list shows data with number-->
+    <ol>
+        <li>Raktim</li>
+        <li>Setu</li>
+    </ol>
+    </div>
+    <hr>
+ <div>
+    <form id="f">
+        <h4>Demo form</h4>
+        <input type="text" placeholder="username"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <input type="date" ><br><br>
+        <input type="time"><br><br>
+        <input type="datetime-local"><br><br>
+        <p class="f">Which subject?</p>
+        <label for="101">
+        <input type="radio" value="CSE" name="sub" id="101">CSE
+        </label>
+        <label for="102">
+        <input type="radio" value="SWE" name="sub" id="102">SWE<br>
+        </label>
+        <label for="103">
+        <input type="radio" value="EEE" name="sub" id="103">EEE
+        </label>
+        <label for="104">
+        <input type="radio" value="NFE" name="sub" id="104">NFE<br><br>
+        </label>
+        <p class="f">Which semester?</p>
+        <label for="105">
+        <input type="radio" value="1" name="semester" id="105">1st
+        </label>
+        <label for="106">
+        <input type="radio" value="2" name="semester" id="106">2nd<br>
+        </label>
+        <label for="107">
+        <input type="radio" value="3" name="semester" id="107">3rd
+        </label>
+        <label for="108">
+        <input type="radio" value="4" name="semester" id="108">4th<br><br>
+        </label>
+        <p class="f">your interedted mejor</p>
+        <label>
+            <input type="checkbox" class="mejor" id="201">Data science
+        </label>
+        <label>
+            <input type="checkbox" class="mejor" id="202">Cyber sicureity<br>
+        </label>
+        <label>
+            <input type="checkbox" class="mejor" id="203">Robotics
+        </label>
+        <label>
+            <input type="checkbox" class="mejor" id="204">Aritificial Intelengence<br><br>
+        </label>
+         <p class="f">Select your city</p><br>
+        <select name="city" value="city" id="city">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Gopalganj">Gopalganj</option>
+        </select><br><br>
+        <textarea rows="10" placeholder="Give your feedback here">Feedback</textarea><br>
+
+        <input id="s" type="submit" value="SUBMIT">
+        <input id="s" type="reset" value="RESET"><br><br>
+    </form>
+ </div>
+    
+
+    <h3>Uses of iframe</h3><br>
+   <iframe class="i" width="560" height="315" src="https://www.youtube.com/embed/NQeB9zVckAA?si=WsHCGOPlPWEgt1is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <iframe class="i" width="560" height="315" src="https://www.wikipedia.org/">vv</iframe>,
+    <hr>
+    <video class="i" src="/vv.mp3" width="560" height="315" controls loop >My video</video>
+    
+</body>
+</html>

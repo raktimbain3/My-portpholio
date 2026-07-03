@@ -1,0 +1,80 @@
+*{
+    text-align: center;
+}
+
+body
+{
+     color: #03045e;
+    font-family:cursive;
+    background-color:#caf0f8;
+    border-width: 5px;
+    border-color:#03045e;
+    border-style:double;
+} 
+#heading
+{
+    color:#9596ff;
+    background-color: #03045e;
+    height: 80px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+h1{font-weight:normal}
+p
+{
+    color: #c01039;
+}
+#parah
+{
+    color:#03045e;
+    font-size: 25px;
+    text-align: center;
+    line-height: 22px;
+}
+a{ color: #03045e;}
+sub{ color: #c01039;}
+sup{color:#c01039}
+#education
+{
+    color: #03045e;
+    background-color: white;
+    text-decoration: none;
+}
+button{background-color: white;}
+
+#s{ background-color: #000000;
+    color: #ffffff;}
+input{
+    background-color: whitesmoke;
+    color: #000000}
+label{
+    background-color: whitesmoke;
+    color: #000000}
+select{
+    background-color: whitesmoke;
+    color: #000000}
+option{
+    background-color: whitesmoke;
+    color: #000000}
+textarea{
+    background-color: whitesmoke;
+    color: #000000}
+#f
+{ background-color: whitesmoke;}
+.f{
+    background-color: whitesmoke;
+    color:#000000;}
+caption
+{
+    text-decoration:1px rgb(60, 0, 255) double underline;
+}
+#T{
+text-align: center;
+}
